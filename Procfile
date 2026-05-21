@@ -1,0 +1,1 @@
+web: java -jar target/linkedIn_model-0.0.1-SNAPSHOT.jar

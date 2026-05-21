@@ -26,9 +26,9 @@ import dev.langchain4j.internal.Json;
 @Service
 public class LinkedInService {
 
-	@Value("${client_id}")
+	@Value("${CLIENT_ID}")
 	private String client_id;
-	@Value("${client_secret}")
+	@Value("${CLIENT_SECRET}")
 	private String client_secret;
 	@Value("${server.url}/callback")
 	private String redirect_uri;
